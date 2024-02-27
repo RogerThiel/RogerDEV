@@ -1,0 +1,39 @@
+/* QuizApp.css */
+
+.quiz-container {
+    padding: 16px;
+  }
+  
+  .quiz-question {
+    font-size: 1.5em;
+    margin-bottom: 16px;
+  }
+  
+  .answer-button {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+  
+  .answer-button.correct {
+    background-color: lightgreen;
+  }
+  
+  .answer-button.incorrect {
+    background-color: lightgray;
+  }
+  
+  .next-button {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    color: white;
+    background-color: blue;
+    margin-top: 16px;
+  }
+  
+  .score {
+    margin-top: 16px;
+  }
